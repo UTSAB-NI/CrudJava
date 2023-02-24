@@ -170,39 +170,6 @@ public class EmployeeService {
 
 
     /*
-    private void createEmployee() {
-        Scanner scanner = new Scanner(System.in);
-        Employee employee = new Employee();
-        System.out.println("Enter ID :");
-        employee.setID(scanner.nextInt());
-        System.out.println("Enter name :");
-        employee.setName(scanner.next());
-
-        System.out.println("Enter address:");
-        employee.setAddress(scanner.next());
-
-        System.out.println("Enter salary:");
-        employee.setSalary(scanner.nextInt());
-
-        employeeList.add(employee);
-
-
-    }
-
-
-    public void printData() {
-        System.out.println("-------------------------------------------------");
-        System.out.println("|  ID   |  Name           |  Address           |   Salary  |");
-        System.out.println("-------------------------------------------------");
-
-        if (employeeList.isEmpty()) {
-            System.out.println("Add employee info first");
-        } else {
-            employeeList.forEach(employee -> {
-                System.out.println(employee);
-            });
-        }
-    }
 
     public void deleteDate() {
         Scanner scanner = new Scanner(System.in);
